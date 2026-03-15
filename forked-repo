@@ -1,0 +1,39 @@
+PS C:\Users\yashm> curl https://api.github.com/repos/falgunscorpion/mcino-introduction-to-git-and-github
+
+Security Warning: Script Execution Risk
+Invoke-WebRequest parses the content of the web page. Script code in the web page might be run when the page is
+parsed.
+      RECOMMENDED ACTION:
+      Use the -UseBasicParsing switch to avoid script code execution.
+
+      Do you want to continue?
+
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"id":1182298684,"node_id":"R_kgDORnhyPA","name":"mcino-Introduction-to-Git-and-GitHub","full_name"
+                    :"falgunscorpion/mcino-Introduction-to-Git-and-GitHub","private":false,"owner":{"login":"falgunscor
+                    pi...
+RawContent        : HTTP/1.1 200 OK
+                    Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+                    X-GitHub-Media-Type: github.v3; format=json
+                    x-github-api-version-selected: 2022-11-28
+                    Access-Control-Expose-Headers: ETag, Li...
+Forms             : {}
+Headers           : {[Vary, Accept,Accept-Encoding, Accept, X-Requested-With], [X-GitHub-Media-Type, github.v3;
+                    format=json], [x-github-api-version-selected, 2022-11-28], [Access-Control-Expose-Headers, ETag,
+                    Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+                    X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+                    X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id,
+                    Deprecation, Sunset]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 21595
+
+
+
+PS C:\Users\yashm>
